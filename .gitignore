@@ -1,0 +1,39 @@
+# Build/Output klasörleri ve geçici dosyalar
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.log
+*.dep
+
+# IDE/Editor klasörleri ve dosyalarý
+.vscode/
+.settings/
+*.launch
+*.suo
+*.user
+*.opensdf
+*.autosave
+
+# Eclipse/STM32CubeIDE proje metaverileri (isteðe baðlý)
+.project
+.cproject
+
+# Ýþletim sistemine özgü gereksiz dosyalar
+.DS_Store
+Thumbs.db
+
+# Yedek/geçici uzantýlar
+*.bak
+*.swp
+
+# Eklenmesini istemediðiniz diðer dosya veya klasörler
+# Middlewares/
+# Drivers/
+# .metadata/
